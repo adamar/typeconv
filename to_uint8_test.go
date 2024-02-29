@@ -205,7 +205,7 @@ func TestFloat64ToUint8(t *testing.T) {
 
 func TestStringToUint8(t *testing.T) {
 
-    input := string(1)
+    input := "1"
     expected := uint8(1)
 
     result, err := StringToUint8(input)

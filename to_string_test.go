@@ -8,7 +8,7 @@ import (
 func TestIntToString(t *testing.T) {
 
     input := int(1)
-    expected := string(1)
+    expected := "1"
 
     result, err := IntToString(input)
 
@@ -26,7 +26,7 @@ func TestIntToString(t *testing.T) {
 func TestInt8ToString(t *testing.T) {
 
     input := int8(1)
-    expected := string(1)
+    expected := "1"
 
     result, err := Int8ToString(input)
 
@@ -44,7 +44,7 @@ func TestInt8ToString(t *testing.T) {
 func TestInt16ToString(t *testing.T) {
 
     input := int16(1)
-    expected := string(1)
+    expected := "1"
 
     result, err := Int16ToString(input)
 
@@ -62,7 +62,7 @@ func TestInt16ToString(t *testing.T) {
 func TestInt32ToString(t *testing.T) {
 
     input := int32(1)
-    expected := string(1)
+    expected := "1"
 
     result, err := Int32ToString(input)
 
@@ -80,7 +80,7 @@ func TestInt32ToString(t *testing.T) {
 func TestInt64ToString(t *testing.T) {
 
     input := int64(1)
-    expected := string(1)
+    expected := "1"
 
     result, err := Int64ToString(input)
 
@@ -98,7 +98,7 @@ func TestInt64ToString(t *testing.T) {
 func TestUintToString(t *testing.T) {
 
     input := uint(1)
-    expected := string(1)
+    expected := "1"
 
     result, err := UintToString(input)
 
@@ -116,7 +116,7 @@ func TestUintToString(t *testing.T) {
 func TestUint8ToString(t *testing.T) {
 
     input := uint8(1)
-    expected := string(1)
+    expected := "1"
 
     result, err := Uint8ToString(input)
 
@@ -134,7 +134,7 @@ func TestUint8ToString(t *testing.T) {
 func TestUint16ToString(t *testing.T) {
 
     input := uint16(1)
-    expected := string(1)
+    expected := "1"
 
     result, err := Uint16ToString(input)
 
@@ -152,7 +152,7 @@ func TestUint16ToString(t *testing.T) {
 func TestUint32ToString(t *testing.T) {
 
     input := uint32(1)
-    expected := string(1)
+    expected := "1"
 
     result, err := Uint32ToString(input)
 
@@ -170,7 +170,7 @@ func TestUint32ToString(t *testing.T) {
 func TestUint64ToString(t *testing.T) {
 
     input := uint64(1)
-    expected := string(1)
+    expected := "1"
 
     result, err := Uint64ToString(input)
 
@@ -188,7 +188,7 @@ func TestUint64ToString(t *testing.T) {
 func TestFloat32ToString(t *testing.T) {
 
     input := float32(1)
-    expected := string(1)
+    expected := "1"
 
     result, err := Float32ToString(input)
 
@@ -206,7 +206,7 @@ func TestFloat32ToString(t *testing.T) {
 func TestFloat64ToString(t *testing.T) {
 
     input := float64(1)
-    expected := string(1)
+    expected := "1"
 
     result, err := Float64ToString(input)
 

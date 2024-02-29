@@ -205,7 +205,7 @@ func TestFloat64ToUint64(t *testing.T) {
 
 func TestStringToUint64(t *testing.T) {
 
-    input := string(1)
+    input := "1"
     expected := uint64(1)
 
     result, err := StringToUint64(input)

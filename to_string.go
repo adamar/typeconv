@@ -8,8 +8,7 @@ import (
 // IntToString as the name implies takes a int and converts it into a string
 func IntToString(input int) (string, error) {
 
-	// NOT IMPLEMENTED YET
-	return string(input), nil
+	return strconv.Itoa(input), nil
 
 }
 
@@ -17,8 +16,7 @@ func IntToString(input int) (string, error) {
 // Int8ToString as the name implies takes a int8 and converts it into a string
 func Int8ToString(input int8) (string, error) {
 
-	// NOT IMPLEMENTED YET
-	return string(input), nil
+	return strconv.FormatInt(int64(input), 10), nil
 
 }
 
@@ -26,8 +24,7 @@ func Int8ToString(input int8) (string, error) {
 // Int16ToString as the name implies takes a int16 and converts it into a string
 func Int16ToString(input int16) (string, error) {
 
-	// NOT IMPLEMENTED YET
-	return string(input), nil
+	return strconv.FormatInt(int64(input), 10), nil
 
 }
 
@@ -35,8 +32,7 @@ func Int16ToString(input int16) (string, error) {
 // Int32ToString as the name implies takes a int32 and converts it into a string
 func Int32ToString(input int32) (string, error) {
 
-	// NOT IMPLEMENTED YET
-	return string(input), nil
+	return strconv.FormatInt(int64(input), 10), nil
 
 }
 
@@ -44,8 +40,7 @@ func Int32ToString(input int32) (string, error) {
 // Int64ToString as the name implies takes a int64 and converts it into a string
 func Int64ToString(input int64) (string, error) {
 
-	// NOT IMPLEMENTED YET
-	return string(input), nil
+	return strconv.FormatInt(int64(input), 10), nil
 
 }
 
@@ -53,8 +48,7 @@ func Int64ToString(input int64) (string, error) {
 // UintToString as the name implies takes a uint and converts it into a string
 func UintToString(input uint) (string, error) {
 
-	// NOT IMPLEMENTED YET
-	return string(input), nil
+	return strconv.FormatInt(int64(input), 10), nil
 
 }
 
@@ -62,8 +56,7 @@ func UintToString(input uint) (string, error) {
 // Uint8ToString as the name implies takes a uint8 and converts it into a string
 func Uint8ToString(input uint8) (string, error) {
 
-	// NOT IMPLEMENTED YET
-	return string(input), nil
+	return strconv.FormatInt(int64(input), 10), nil
 
 }
 
@@ -71,8 +64,7 @@ func Uint8ToString(input uint8) (string, error) {
 // Uint16ToString as the name implies takes a uint16 and converts it into a string
 func Uint16ToString(input uint16) (string, error) {
 
-	// NOT IMPLEMENTED YET
-	return string(input), nil
+	return strconv.FormatInt(int64(input), 10), nil
 
 }
 
@@ -80,8 +72,7 @@ func Uint16ToString(input uint16) (string, error) {
 // Uint32ToString as the name implies takes a uint32 and converts it into a string
 func Uint32ToString(input uint32) (string, error) {
 
-	// NOT IMPLEMENTED YET
-	return string(input), nil
+	return strconv.FormatInt(int64(input), 10), nil
 
 }
 
@@ -89,8 +80,7 @@ func Uint32ToString(input uint32) (string, error) {
 // Uint64ToString as the name implies takes a uint64 and converts it into a string
 func Uint64ToString(input uint64) (string, error) {
 
-	// NOT IMPLEMENTED YET
-	return string(input), nil
+	return strconv.FormatInt(int64(input), 10), nil
 
 }
 

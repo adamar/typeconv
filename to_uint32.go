@@ -1,6 +1,10 @@
 
 package typeconv
 
+import (
+	"strconv"
+)
+
 // IntToUint32 as the name implies takes a int and converts it into a uint32
 func IntToUint32(input int) (uint32, error) {
 
@@ -103,8 +107,11 @@ func Float64ToUint32(input float64) (uint32, error) {
 // StringToUint32 as the name implies takes a string and converts it into a uint32
 func StringToUint32(input string) (uint32, error) {
 
-	// NOT IMPLEMENTED YET
-	return uint32(input), nil
+	result, err := strconv.ParseUint(input, 10, 32)
+	if err != nil {
+		return uint32(0), err
+	}
+	return uint32(result), nil
 
 }
 

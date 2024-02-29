@@ -1,6 +1,10 @@
 
 package typeconv
 
+import (
+	"strconv"
+)
+
 // IntToUint as the name implies takes a int and converts it into a uint
 func IntToUint(input int) (uint, error) {
 
@@ -103,8 +107,11 @@ func Float64ToUint(input float64) (uint, error) {
 // StringToUint as the name implies takes a string and converts it into a uint
 func StringToUint(input string) (uint, error) {
 
-	// NOT IMPLEMENTED YET
-	return uint(input), nil
+	result, err := strconv.ParseUint(input, 10, 64)
+	if err != nil {
+		return 0, err
+	}
+	return uint(result), nil
 
 }
 

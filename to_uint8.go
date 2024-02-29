@@ -1,6 +1,10 @@
 
 package typeconv
 
+import (
+	"strconv"
+)
+
 // IntToUint8 as the name implies takes a int and converts it into a uint8
 func IntToUint8(input int) (uint8, error) {
 
@@ -103,8 +107,11 @@ func Float64ToUint8(input float64) (uint8, error) {
 // StringToUint8 as the name implies takes a string and converts it into a uint8
 func StringToUint8(input string) (uint8, error) {
 
-	// NOT IMPLEMENTED YET
-	return uint8(input), nil
+	result, err := strconv.ParseUint(input, 10, 8)
+	if err != nil {
+		return uint8(0), err
+	}
+	return uint8(result), nil
 
 }
 

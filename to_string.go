@@ -1,6 +1,10 @@
 
 package typeconv
 
+import (
+	"strconv"
+)
+
 // IntToString as the name implies takes a int and converts it into a string
 func IntToString(input int) (string, error) {
 
@@ -94,8 +98,7 @@ func Uint64ToString(input uint64) (string, error) {
 // Float32ToString as the name implies takes a float32 and converts it into a string
 func Float32ToString(input float32) (string, error) {
 
-	// NOT IMPLEMENTED YET
-	return string(input), nil
+	return strconv.FormatFloat(float64(input), 'f', -1, 32), nil
 
 }
 
@@ -103,7 +106,6 @@ func Float32ToString(input float32) (string, error) {
 // Float64ToString as the name implies takes a float64 and converts it into a string
 func Float64ToString(input float64) (string, error) {
 
-	// NOT IMPLEMENTED YET
-	return string(input), nil
+	return strconv.FormatFloat(input, 'f', -1, 32), nil
 
 }

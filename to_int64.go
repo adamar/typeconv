@@ -1,6 +1,10 @@
 
 package typeconv
 
+import (
+	"strconv"
+)
+
 // IntToInt64 as the name implies takes a int and converts it into a int64
 func IntToInt64(input int) (int64, error) {
 
@@ -103,8 +107,7 @@ func Float64ToInt64(input float64) (int64, error) {
 // StringToInt64 as the name implies takes a string and converts it into a int64
 func StringToInt64(input string) (int64, error) {
 
-	// NOT IMPLEMENTED YET
-	return int64(input), nil
+	return strconv.ParseInt(input, 10, 64)
 
 }
 

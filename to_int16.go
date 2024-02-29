@@ -8,7 +8,6 @@ import (
 // IntToInt16 as the name implies takes a int and converts it into a int16
 func IntToInt16(input int) (int16, error) {
 
-	// NOT IMPLEMENTED YET
 	return int16(input), nil
 
 }
@@ -17,7 +16,6 @@ func IntToInt16(input int) (int16, error) {
 // Int8ToInt16 as the name implies takes a int8 and converts it into a int16
 func Int8ToInt16(input int8) (int16, error) {
 
-	// NOT IMPLEMENTED YET
 	return int16(input), nil
 
 }
@@ -26,7 +24,6 @@ func Int8ToInt16(input int8) (int16, error) {
 // Int32ToInt16 as the name implies takes a int32 and converts it into a int16
 func Int32ToInt16(input int32) (int16, error) {
 
-	// NOT IMPLEMENTED YET
 	return int16(input), nil
 
 }
@@ -35,7 +32,6 @@ func Int32ToInt16(input int32) (int16, error) {
 // Int64ToInt16 as the name implies takes a int64 and converts it into a int16
 func Int64ToInt16(input int64) (int16, error) {
 
-	// NOT IMPLEMENTED YET
 	return int16(input), nil
 
 }
@@ -44,7 +40,6 @@ func Int64ToInt16(input int64) (int16, error) {
 // UintToInt16 as the name implies takes a uint and converts it into a int16
 func UintToInt16(input uint) (int16, error) {
 
-	// NOT IMPLEMENTED YET
 	return int16(input), nil
 
 }
@@ -53,7 +48,6 @@ func UintToInt16(input uint) (int16, error) {
 // Uint8ToInt16 as the name implies takes a uint8 and converts it into a int16
 func Uint8ToInt16(input uint8) (int16, error) {
 
-	// NOT IMPLEMENTED YET
 	return int16(input), nil
 
 }
@@ -62,7 +56,6 @@ func Uint8ToInt16(input uint8) (int16, error) {
 // Uint16ToInt16 as the name implies takes a uint16 and converts it into a int16
 func Uint16ToInt16(input uint16) (int16, error) {
 
-	// NOT IMPLEMENTED YET
 	return int16(input), nil
 
 }
@@ -71,7 +64,6 @@ func Uint16ToInt16(input uint16) (int16, error) {
 // Uint32ToInt16 as the name implies takes a uint32 and converts it into a int16
 func Uint32ToInt16(input uint32) (int16, error) {
 
-	// NOT IMPLEMENTED YET
 	return int16(input), nil
 
 }
@@ -80,7 +72,6 @@ func Uint32ToInt16(input uint32) (int16, error) {
 // Uint64ToInt16 as the name implies takes a uint64 and converts it into a int16
 func Uint64ToInt16(input uint64) (int16, error) {
 
-	// NOT IMPLEMENTED YET
 	return int16(input), nil
 
 }
@@ -89,7 +80,6 @@ func Uint64ToInt16(input uint64) (int16, error) {
 // Float32ToInt16 as the name implies takes a float32 and converts it into a int16
 func Float32ToInt16(input float32) (int16, error) {
 
-	// NOT IMPLEMENTED YET
 	return int16(input), nil
 
 }
@@ -98,7 +88,6 @@ func Float32ToInt16(input float32) (int16, error) {
 // Float64ToInt16 as the name implies takes a float64 and converts it into a int16
 func Float64ToInt16(input float64) (int16, error) {
 
-	// NOT IMPLEMENTED YET
 	return int16(input), nil
 
 }

@@ -8,7 +8,6 @@ import (
 // IntToUint32 as the name implies takes a int and converts it into a uint32
 func IntToUint32(input int) (uint32, error) {
 
-	// NOT IMPLEMENTED YET
 	return uint32(input), nil
 
 }
@@ -17,7 +16,6 @@ func IntToUint32(input int) (uint32, error) {
 // Int8ToUint32 as the name implies takes a int8 and converts it into a uint32
 func Int8ToUint32(input int8) (uint32, error) {
 
-	// NOT IMPLEMENTED YET
 	return uint32(input), nil
 
 }
@@ -26,7 +24,6 @@ func Int8ToUint32(input int8) (uint32, error) {
 // Int16ToUint32 as the name implies takes a int16 and converts it into a uint32
 func Int16ToUint32(input int16) (uint32, error) {
 
-	// NOT IMPLEMENTED YET
 	return uint32(input), nil
 
 }
@@ -35,7 +32,6 @@ func Int16ToUint32(input int16) (uint32, error) {
 // Int32ToUint32 as the name implies takes a int32 and converts it into a uint32
 func Int32ToUint32(input int32) (uint32, error) {
 
-	// NOT IMPLEMENTED YET
 	return uint32(input), nil
 
 }
@@ -44,7 +40,6 @@ func Int32ToUint32(input int32) (uint32, error) {
 // Int64ToUint32 as the name implies takes a int64 and converts it into a uint32
 func Int64ToUint32(input int64) (uint32, error) {
 
-	// NOT IMPLEMENTED YET
 	return uint32(input), nil
 
 }
@@ -53,7 +48,6 @@ func Int64ToUint32(input int64) (uint32, error) {
 // UintToUint32 as the name implies takes a uint and converts it into a uint32
 func UintToUint32(input uint) (uint32, error) {
 
-	// NOT IMPLEMENTED YET
 	return uint32(input), nil
 
 }
@@ -62,7 +56,6 @@ func UintToUint32(input uint) (uint32, error) {
 // Uint8ToUint32 as the name implies takes a uint8 and converts it into a uint32
 func Uint8ToUint32(input uint8) (uint32, error) {
 
-	// NOT IMPLEMENTED YET
 	return uint32(input), nil
 
 }
@@ -71,7 +64,6 @@ func Uint8ToUint32(input uint8) (uint32, error) {
 // Uint16ToUint32 as the name implies takes a uint16 and converts it into a uint32
 func Uint16ToUint32(input uint16) (uint32, error) {
 
-	// NOT IMPLEMENTED YET
 	return uint32(input), nil
 
 }
@@ -80,7 +72,6 @@ func Uint16ToUint32(input uint16) (uint32, error) {
 // Uint64ToUint32 as the name implies takes a uint64 and converts it into a uint32
 func Uint64ToUint32(input uint64) (uint32, error) {
 
-	// NOT IMPLEMENTED YET
 	return uint32(input), nil
 
 }
@@ -89,7 +80,6 @@ func Uint64ToUint32(input uint64) (uint32, error) {
 // Float32ToUint32 as the name implies takes a float32 and converts it into a uint32
 func Float32ToUint32(input float32) (uint32, error) {
 
-	// NOT IMPLEMENTED YET
 	return uint32(input), nil
 
 }
@@ -98,7 +88,6 @@ func Float32ToUint32(input float32) (uint32, error) {
 // Float64ToUint32 as the name implies takes a float64 and converts it into a uint32
 func Float64ToUint32(input float64) (uint32, error) {
 
-	// NOT IMPLEMENTED YET
 	return uint32(input), nil
 
 }

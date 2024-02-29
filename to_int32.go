@@ -2,114 +2,128 @@
 package typeconv
 
 // IntToInt32 as the name implies takes a int and converts it into a int32
-// func IntToInt32(input int) (int32, error) {
+func IntToInt32(input int) (int32, error) {
 
-//   NOT IMPLEMENTED YET
+	// NOT IMPLEMENTED YET
+	return int(input), nil
 
-//}
+}
 
 
 // Int8ToInt32 as the name implies takes a int8 and converts it into a int32
-// func Int8ToInt32(input int8) (int32, error) {
+func Int8ToInt32(input int8) (int32, error) {
 
-//   NOT IMPLEMENTED YET
+	// NOT IMPLEMENTED YET
+	return int8(input), nil
 
-//}
+}
 
 
 // Int16ToInt32 as the name implies takes a int16 and converts it into a int32
-// func Int16ToInt32(input int16) (int32, error) {
+func Int16ToInt32(input int16) (int32, error) {
 
-//   NOT IMPLEMENTED YET
+	// NOT IMPLEMENTED YET
+	return int16(input), nil
 
-//}
+}
 
 
 // Int64ToInt32 as the name implies takes a int64 and converts it into a int32
-// func Int64ToInt32(input int64) (int32, error) {
+func Int64ToInt32(input int64) (int32, error) {
 
-//   NOT IMPLEMENTED YET
+	// NOT IMPLEMENTED YET
+	return int64(input), nil
 
-//}
+}
 
 
 // UintToInt32 as the name implies takes a uint and converts it into a int32
-// func UintToInt32(input uint) (int32, error) {
+func UintToInt32(input uint) (int32, error) {
 
-//   NOT IMPLEMENTED YET
+	// NOT IMPLEMENTED YET
+	return uint(input), nil
 
-//}
+}
 
 
 // Uint8ToInt32 as the name implies takes a uint8 and converts it into a int32
-// func Uint8ToInt32(input uint8) (int32, error) {
+func Uint8ToInt32(input uint8) (int32, error) {
 
-//   NOT IMPLEMENTED YET
+	// NOT IMPLEMENTED YET
+	return uint8(input), nil
 
-//}
+}
 
 
 // Uint16ToInt32 as the name implies takes a uint16 and converts it into a int32
-// func Uint16ToInt32(input uint16) (int32, error) {
+func Uint16ToInt32(input uint16) (int32, error) {
 
-//   NOT IMPLEMENTED YET
+	// NOT IMPLEMENTED YET
+	return uint16(input), nil
 
-//}
+}
 
 
 // Uint32ToInt32 as the name implies takes a uint32 and converts it into a int32
-// func Uint32ToInt32(input uint32) (int32, error) {
+func Uint32ToInt32(input uint32) (int32, error) {
 
-//   NOT IMPLEMENTED YET
+	// NOT IMPLEMENTED YET
+	return uint32(input), nil
 
-//}
+}
 
 
 // Uint64ToInt32 as the name implies takes a uint64 and converts it into a int32
-// func Uint64ToInt32(input uint64) (int32, error) {
+func Uint64ToInt32(input uint64) (int32, error) {
 
-//   NOT IMPLEMENTED YET
+	// NOT IMPLEMENTED YET
+	return uint64(input), nil
 
-//}
+}
 
 
 // Float32ToInt32 as the name implies takes a float32 and converts it into a int32
-// func Float32ToInt32(input float32) (int32, error) {
+func Float32ToInt32(input float32) (int32, error) {
 
-//   NOT IMPLEMENTED YET
+	// NOT IMPLEMENTED YET
+	return float32(input), nil
 
-//}
+}
 
 
 // Float64ToInt32 as the name implies takes a float64 and converts it into a int32
-// func Float64ToInt32(input float64) (int32, error) {
+func Float64ToInt32(input float64) (int32, error) {
 
-//   NOT IMPLEMENTED YET
+	// NOT IMPLEMENTED YET
+	return float64(input), nil
 
-//}
+}
 
 
 // Complex64ToInt32 as the name implies takes a complex64 and converts it into a int32
-// func Complex64ToInt32(input complex64) (int32, error) {
+func Complex64ToInt32(input complex64) (int32, error) {
 
-//   NOT IMPLEMENTED YET
+	// NOT IMPLEMENTED YET
+	return complex64(input), nil
 
-//}
+}
 
 
 // Complex128ToInt32 as the name implies takes a complex128 and converts it into a int32
-// func Complex128ToInt32(input complex128) (int32, error) {
+func Complex128ToInt32(input complex128) (int32, error) {
 
-//   NOT IMPLEMENTED YET
+	// NOT IMPLEMENTED YET
+	return complex128(input), nil
 
-//}
+}
 
 
 // StringToInt32 as the name implies takes a string and converts it into a int32
-// func StringToInt32(input string) (int32, error) {
+func StringToInt32(input string) (int32, error) {
 
-//   NOT IMPLEMENTED YET
+	// NOT IMPLEMENTED YET
+	return string(input), nil
 
-//}
+}
 
 

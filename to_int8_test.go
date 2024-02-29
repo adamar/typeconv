@@ -1,259 +1,259 @@
 
 package typeconv
 
-//import (
-//    "testing"
-//)
+import (
+    "testing"
+)
 
-//func TestIntToInt8(t *testing.T) {
+func TestIntToInt8(t *testing.T) {
 
-//    input := int(1)
-//    expected := int8(1)
+    input := int(1)
+    expected := int8(1)
 
-//    result, err := IntToInt8(input)
+    result, err := IntToInt8(input)
 
-//    if err != nil {
-//        t.Errorf("Error %v", err)
-//    }
+    if err != nil {
+        t.Errorf("Error %v", err)
+    }
 
-//    if result != expected {
-//        t.Errorf("Result was Incorrect, got: %s, wanted: %s.", result, expected)
-//    }
+    if result != expected {
+        t.Errorf("Result was Incorrect, got: %v, wanted: %v.", result, expected)
+    }
 
-//}
+}
 
 
-//func TestInt16ToInt8(t *testing.T) {
+func TestInt16ToInt8(t *testing.T) {
 
-//    input := int16(1)
-//    expected := int8(1)
+    input := int16(1)
+    expected := int8(1)
 
-//    result, err := Int16ToInt8(input)
+    result, err := Int16ToInt8(input)
 
-//    if err != nil {
-//        t.Errorf("Error %v", err)
-//    }
+    if err != nil {
+        t.Errorf("Error %v", err)
+    }
 
-//    if result != expected {
-//        t.Errorf("Result was Incorrect, got: %s, wanted: %s.", result, expected)
-//    }
+    if result != expected {
+        t.Errorf("Result was Incorrect, got: %v, wanted: %v.", result, expected)
+    }
 
-//}
+}
 
 
-//func TestInt32ToInt8(t *testing.T) {
+func TestInt32ToInt8(t *testing.T) {
 
-//    input := int32(1)
-//    expected := int8(1)
+    input := int32(1)
+    expected := int8(1)
 
-//    result, err := Int32ToInt8(input)
+    result, err := Int32ToInt8(input)
 
-//    if err != nil {
-//        t.Errorf("Error %v", err)
-//    }
+    if err != nil {
+        t.Errorf("Error %v", err)
+    }
 
-//    if result != expected {
-//        t.Errorf("Result was Incorrect, got: %s, wanted: %s.", result, expected)
-//    }
+    if result != expected {
+        t.Errorf("Result was Incorrect, got: %v, wanted: %v.", result, expected)
+    }
 
-//}
+}
 
 
-//func TestInt64ToInt8(t *testing.T) {
+func TestInt64ToInt8(t *testing.T) {
 
-//    input := int64(1)
-//    expected := int8(1)
+    input := int64(1)
+    expected := int8(1)
 
-//    result, err := Int64ToInt8(input)
+    result, err := Int64ToInt8(input)
 
-//    if err != nil {
-//        t.Errorf("Error %v", err)
-//    }
+    if err != nil {
+        t.Errorf("Error %v", err)
+    }
 
-//    if result != expected {
-//        t.Errorf("Result was Incorrect, got: %s, wanted: %s.", result, expected)
-//    }
+    if result != expected {
+        t.Errorf("Result was Incorrect, got: %v, wanted: %v.", result, expected)
+    }
 
-//}
+}
 
 
-//func TestUintToInt8(t *testing.T) {
+func TestUintToInt8(t *testing.T) {
 
-//    input := uint(1)
-//    expected := int8(1)
+    input := uint(1)
+    expected := int8(1)
 
-//    result, err := UintToInt8(input)
+    result, err := UintToInt8(input)
 
-//    if err != nil {
-//        t.Errorf("Error %v", err)
-//    }
+    if err != nil {
+        t.Errorf("Error %v", err)
+    }
 
-//    if result != expected {
-//        t.Errorf("Result was Incorrect, got: %s, wanted: %s.", result, expected)
-//    }
+    if result != expected {
+        t.Errorf("Result was Incorrect, got: %v, wanted: %v.", result, expected)
+    }
 
-//}
+}
 
 
-//func TestUint8ToInt8(t *testing.T) {
+func TestUint8ToInt8(t *testing.T) {
 
-//    input := uint8(1)
-//    expected := int8(1)
+    input := uint8(1)
+    expected := int8(1)
 
-//    result, err := Uint8ToInt8(input)
+    result, err := Uint8ToInt8(input)
 
-//    if err != nil {
-//        t.Errorf("Error %v", err)
-//    }
+    if err != nil {
+        t.Errorf("Error %v", err)
+    }
 
-//    if result != expected {
-//        t.Errorf("Result was Incorrect, got: %s, wanted: %s.", result, expected)
-//    }
+    if result != expected {
+        t.Errorf("Result was Incorrect, got: %v, wanted: %v.", result, expected)
+    }
 
-//}
+}
 
 
-//func TestUint16ToInt8(t *testing.T) {
+func TestUint16ToInt8(t *testing.T) {
 
-//    input := uint16(1)
-//    expected := int8(1)
+    input := uint16(1)
+    expected := int8(1)
 
-//    result, err := Uint16ToInt8(input)
+    result, err := Uint16ToInt8(input)
 
-//    if err != nil {
-//        t.Errorf("Error %v", err)
-//    }
+    if err != nil {
+        t.Errorf("Error %v", err)
+    }
 
-//    if result != expected {
-//        t.Errorf("Result was Incorrect, got: %s, wanted: %s.", result, expected)
-//    }
+    if result != expected {
+        t.Errorf("Result was Incorrect, got: %v, wanted: %v.", result, expected)
+    }
 
-//}
+}
 
 
-//func TestUint32ToInt8(t *testing.T) {
+func TestUint32ToInt8(t *testing.T) {
 
-//    input := uint32(1)
-//    expected := int8(1)
+    input := uint32(1)
+    expected := int8(1)
 
-//    result, err := Uint32ToInt8(input)
+    result, err := Uint32ToInt8(input)
 
-//    if err != nil {
-//        t.Errorf("Error %v", err)
-//    }
+    if err != nil {
+        t.Errorf("Error %v", err)
+    }
 
-//    if result != expected {
-//        t.Errorf("Result was Incorrect, got: %s, wanted: %s.", result, expected)
-//    }
+    if result != expected {
+        t.Errorf("Result was Incorrect, got: %v, wanted: %v.", result, expected)
+    }
 
-//}
+}
 
 
-//func TestUint64ToInt8(t *testing.T) {
+func TestUint64ToInt8(t *testing.T) {
 
-//    input := uint64(1)
-//    expected := int8(1)
+    input := uint64(1)
+    expected := int8(1)
 
-//    result, err := Uint64ToInt8(input)
+    result, err := Uint64ToInt8(input)
 
-//    if err != nil {
-//        t.Errorf("Error %v", err)
-//    }
+    if err != nil {
+        t.Errorf("Error %v", err)
+    }
 
-//    if result != expected {
-//        t.Errorf("Result was Incorrect, got: %s, wanted: %s.", result, expected)
-//    }
+    if result != expected {
+        t.Errorf("Result was Incorrect, got: %v, wanted: %v.", result, expected)
+    }
 
-//}
+}
 
 
-//func TestFloat32ToInt8(t *testing.T) {
+func TestFloat32ToInt8(t *testing.T) {
 
-//    input := float32(1)
-//    expected := int8(1)
+    input := float32(1)
+    expected := int8(1)
 
-//    result, err := Float32ToInt8(input)
+    result, err := Float32ToInt8(input)
 
-//    if err != nil {
-//        t.Errorf("Error %v", err)
-//    }
+    if err != nil {
+        t.Errorf("Error %v", err)
+    }
 
-//    if result != expected {
-//        t.Errorf("Result was Incorrect, got: %s, wanted: %s.", result, expected)
-//    }
+    if result != expected {
+        t.Errorf("Result was Incorrect, got: %v, wanted: %v.", result, expected)
+    }
 
-//}
+}
 
 
-//func TestFloat64ToInt8(t *testing.T) {
+func TestFloat64ToInt8(t *testing.T) {
 
-//    input := float64(1)
-//    expected := int8(1)
+    input := float64(1)
+    expected := int8(1)
 
-//    result, err := Float64ToInt8(input)
+    result, err := Float64ToInt8(input)
 
-//    if err != nil {
-//        t.Errorf("Error %v", err)
-//    }
+    if err != nil {
+        t.Errorf("Error %v", err)
+    }
 
-//    if result != expected {
-//        t.Errorf("Result was Incorrect, got: %s, wanted: %s.", result, expected)
-//    }
+    if result != expected {
+        t.Errorf("Result was Incorrect, got: %v, wanted: %v.", result, expected)
+    }
 
-//}
+}
 
 
-//func TestComplex64ToInt8(t *testing.T) {
+func TestComplex64ToInt8(t *testing.T) {
 
-//    input := complex64(1)
-//    expected := int8(1)
+    input := complex64(1)
+    expected := int8(1)
 
-//    result, err := Complex64ToInt8(input)
+    result, err := Complex64ToInt8(input)
 
-//    if err != nil {
-//        t.Errorf("Error %v", err)
-//    }
+    if err != nil {
+        t.Errorf("Error %v", err)
+    }
 
-//    if result != expected {
-//        t.Errorf("Result was Incorrect, got: %s, wanted: %s.", result, expected)
-//    }
+    if result != expected {
+        t.Errorf("Result was Incorrect, got: %v, wanted: %v.", result, expected)
+    }
 
-//}
+}
 
 
-//func TestComplex128ToInt8(t *testing.T) {
+func TestComplex128ToInt8(t *testing.T) {
 
-//    input := complex128(1)
-//    expected := int8(1)
+    input := complex128(1)
+    expected := int8(1)
 
-//    result, err := Complex128ToInt8(input)
+    result, err := Complex128ToInt8(input)
 
-//    if err != nil {
-//        t.Errorf("Error %v", err)
-//    }
+    if err != nil {
+        t.Errorf("Error %v", err)
+    }
 
-//    if result != expected {
-//        t.Errorf("Result was Incorrect, got: %s, wanted: %s.", result, expected)
-//    }
+    if result != expected {
+        t.Errorf("Result was Incorrect, got: %v, wanted: %v.", result, expected)
+    }
 
-//}
+}
 
 
-//func TestStringToInt8(t *testing.T) {
+func TestStringToInt8(t *testing.T) {
 
-//    input := string(1)
-//    expected := int8(1)
+    input := string(1)
+    expected := int8(1)
 
-//    result, err := StringToInt8(input)
+    result, err := StringToInt8(input)
 
-//    if err != nil {
-//        t.Errorf("Error %v", err)
-//    }
+    if err != nil {
+        t.Errorf("Error %v", err)
+    }
 
-//    if result != expected {
-//        t.Errorf("Result was Incorrect, got: %s, wanted: %s.", result, expected)
-//    }
+    if result != expected {
+        t.Errorf("Result was Incorrect, got: %v, wanted: %v.", result, expected)
+    }
 
-//}
+}
 
 

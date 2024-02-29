@@ -21,9 +21,9 @@ cat << EOF > "${test_filename}"
 
 package typeconv
 
-//import (
-//    "testing"
-//)
+import (
+    "testing"
+)
 
 EOF
 
@@ -35,32 +35,33 @@ EOF
 
 cat << EOF >> "${filename}"
 // ${input}To${output} as the name implies takes a ${input_lower} and converts it into a ${output_lower}
-// func ${input}To${output}(input $input_lower) (${output_lower}, error) {
+func ${input}To${output}(input $input_lower) (${output_lower}, error) {
 
-//   NOT IMPLEMENTED YET
+	// NOT IMPLEMENTED YET
+	return ${input_lower}(input), nil
 
-//}
+}
 
 
 EOF
 
 cat << EOF >> "${test_filename}"
-//func Test${input}To${output}(t *testing.T) {
+func Test${input}To${output}(t *testing.T) {
 
-//    input := ${input_lower}(1)
-//    expected := ${output_lower}(1)
+    input := ${input_lower}(1)
+    expected := ${output_lower}(1)
 
-//    result, err := ${input}To${output}(input)
+    result, err := ${input}To${output}(input)
 
-//    if err != nil {
-//        t.Errorf("Error %v", err)
-//    }
+    if err != nil {
+        t.Errorf("Error %v", err)
+    }
 
-//    if result != expected {
-//        t.Errorf("Result was Incorrect, got: %s, wanted: %s.", result, expected)
-//    }
+    if result != expected {
+        t.Errorf("Result was Incorrect, got: %v, wanted: %v.", result, expected)
+    }
 
-//}
+}
 
 
 EOF

@@ -1,3 +1,3 @@
 module github.com/adamar/typeconv
 
-go 1.23
+go 1.1

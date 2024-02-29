@@ -8,7 +8,7 @@ A simple library for handling all the different type conversions in Golang (for 
 
 ## Why?
 
-I got sick of trying to figure out how to do more complicated conversions between types and just wanted a simple library for it
+I got sick of trying to figure out how to do more complicated conversions between types and just wanted a simple library for it, or even just a reference
 
 
 

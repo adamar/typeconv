@@ -100,24 +100,6 @@ func Float64ToUint16(input float64) (uint16, error) {
 }
 
 
-// Complex64ToUint16 as the name implies takes a complex64 and converts it into a uint16
-func Complex64ToUint16(input complex64) (uint16, error) {
-
-	// NOT IMPLEMENTED YET
-	return uint16(input), nil
-
-}
-
-
-// Complex128ToUint16 as the name implies takes a complex128 and converts it into a uint16
-func Complex128ToUint16(input complex128) (uint16, error) {
-
-	// NOT IMPLEMENTED YET
-	return uint16(input), nil
-
-}
-
-
 // StringToUint16 as the name implies takes a string and converts it into a uint16
 func StringToUint16(input string) (uint16, error) {
 

@@ -107,23 +107,3 @@ func Float64ToString(input float64) (string, error) {
 	return string(input), nil
 
 }
-
-
-// Complex64ToString as the name implies takes a complex64 and converts it into a string
-func Complex64ToString(input complex64) (string, error) {
-
-	// NOT IMPLEMENTED YET
-	return string(input), nil
-
-}
-
-
-// Complex128ToString as the name implies takes a complex128 and converts it into a string
-func Complex128ToString(input complex128) (string, error) {
-
-	// NOT IMPLEMENTED YET
-	return string(input), nil
-
-}
-
-

@@ -100,24 +100,6 @@ func Float64ToInt8(input float64) (int8, error) {
 }
 
 
-// Complex64ToInt8 as the name implies takes a complex64 and converts it into a int8
-func Complex64ToInt8(input complex64) (int8, error) {
-
-	// NOT IMPLEMENTED YET
-	return int8(input), nil
-
-}
-
-
-// Complex128ToInt8 as the name implies takes a complex128 and converts it into a int8
-func Complex128ToInt8(input complex128) (int8, error) {
-
-	// NOT IMPLEMENTED YET
-	return int8(input), nil
-
-}
-
-
 // StringToInt8 as the name implies takes a string and converts it into a int8
 func StringToInt8(input string) (int8, error) {
 

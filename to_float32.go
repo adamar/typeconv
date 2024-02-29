@@ -1,6 +1,10 @@
 
 package typeconv
 
+import (
+	"strconv"
+)
+
 // IntToFloat32 as the name implies takes a int and converts it into a float32
 func IntToFloat32(input int) (float32, error) {
 
@@ -96,22 +100,6 @@ func Float64ToFloat32(input float64) (float32, error) {
 
 	// NOT IMPLEMENTED YET
 	return float32(input), nil
-
-}
-
-
-// Complex64ToFloat32 as the name implies takes a complex64 and converts it into a float32
-func Complex64ToFloat32(input complex64) (float32, error) {
-
-	return float32(real(c)), nil
-
-}
-
-
-// Complex128ToFloat32 as the name implies takes a complex128 and converts it into a float32
-func Complex128ToFloat32(input complex128) (float32, error) {
-
-	return float32(real(c)), nil
 
 }
 

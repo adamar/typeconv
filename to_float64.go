@@ -100,24 +100,6 @@ func Float32ToFloat64(input float32) (float64, error) {
 }
 
 
-// Complex64ToFloat64 as the name implies takes a complex64 and converts it into a float64
-func Complex64ToFloat64(input complex64) (float64, error) {
-
-	// NOT IMPLEMENTED YET
-	return float64(input), nil
-
-}
-
-
-// Complex128ToFloat64 as the name implies takes a complex128 and converts it into a float64
-func Complex128ToFloat64(input complex128) (float64, error) {
-
-	// NOT IMPLEMENTED YET
-	return float64(input), nil
-
-}
-
-
 // StringToFloat64 as the name implies takes a string and converts it into a float64
 func StringToFloat64(input string) (float64, error) {
 

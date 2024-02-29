@@ -203,42 +203,6 @@ func TestFloat64ToUint32(t *testing.T) {
 }
 
 
-func TestComplex64ToUint32(t *testing.T) {
-
-    input := complex64(1)
-    expected := uint32(1)
-
-    result, err := Complex64ToUint32(input)
-
-    if err != nil {
-        t.Errorf("Error %v", err)
-    }
-
-    if result != expected {
-        t.Errorf("Result was Incorrect, got: %v, wanted: %v.", result, expected)
-    }
-
-}
-
-
-func TestComplex128ToUint32(t *testing.T) {
-
-    input := complex128(1)
-    expected := uint32(1)
-
-    result, err := Complex128ToUint32(input)
-
-    if err != nil {
-        t.Errorf("Error %v", err)
-    }
-
-    if result != expected {
-        t.Errorf("Result was Incorrect, got: %v, wanted: %v.", result, expected)
-    }
-
-}
-
-
 func TestStringToUint32(t *testing.T) {
 
     input := string(1)

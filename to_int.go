@@ -100,24 +100,6 @@ func Float64ToInt(input float64) (int, error) {
 }
 
 
-// Complex64ToInt as the name implies takes a complex64 and converts it into a int
-func Complex64ToInt(input complex64) (int, error) {
-
-	// NOT IMPLEMENTED YET
-	return int(input), nil
-
-}
-
-
-// Complex128ToInt as the name implies takes a complex128 and converts it into a int
-func Complex128ToInt(input complex128) (int, error) {
-
-	// NOT IMPLEMENTED YET
-	return int(input), nil
-
-}
-
-
 // StringToInt as the name implies takes a string and converts it into a int
 func StringToInt(input string) (int, error) {
 

@@ -5,7 +5,7 @@ package typeconv
 func IntToUint(input int) (uint, error) {
 
 	// NOT IMPLEMENTED YET
-	return int(input), nil
+	return uint(input), nil
 
 }
 
@@ -14,7 +14,7 @@ func IntToUint(input int) (uint, error) {
 func Int8ToUint(input int8) (uint, error) {
 
 	// NOT IMPLEMENTED YET
-	return int8(input), nil
+	return uint(input), nil
 
 }
 
@@ -23,7 +23,7 @@ func Int8ToUint(input int8) (uint, error) {
 func Int16ToUint(input int16) (uint, error) {
 
 	// NOT IMPLEMENTED YET
-	return int16(input), nil
+	return uint(input), nil
 
 }
 
@@ -32,7 +32,7 @@ func Int16ToUint(input int16) (uint, error) {
 func Int32ToUint(input int32) (uint, error) {
 
 	// NOT IMPLEMENTED YET
-	return int32(input), nil
+	return uint(input), nil
 
 }
 
@@ -41,7 +41,7 @@ func Int32ToUint(input int32) (uint, error) {
 func Int64ToUint(input int64) (uint, error) {
 
 	// NOT IMPLEMENTED YET
-	return int64(input), nil
+	return uint(input), nil
 
 }
 
@@ -50,7 +50,7 @@ func Int64ToUint(input int64) (uint, error) {
 func Uint8ToUint(input uint8) (uint, error) {
 
 	// NOT IMPLEMENTED YET
-	return uint8(input), nil
+	return uint(input), nil
 
 }
 
@@ -59,7 +59,7 @@ func Uint8ToUint(input uint8) (uint, error) {
 func Uint16ToUint(input uint16) (uint, error) {
 
 	// NOT IMPLEMENTED YET
-	return uint16(input), nil
+	return uint(input), nil
 
 }
 
@@ -68,7 +68,7 @@ func Uint16ToUint(input uint16) (uint, error) {
 func Uint32ToUint(input uint32) (uint, error) {
 
 	// NOT IMPLEMENTED YET
-	return uint32(input), nil
+	return uint(input), nil
 
 }
 
@@ -77,7 +77,7 @@ func Uint32ToUint(input uint32) (uint, error) {
 func Uint64ToUint(input uint64) (uint, error) {
 
 	// NOT IMPLEMENTED YET
-	return uint64(input), nil
+	return uint(input), nil
 
 }
 
@@ -86,7 +86,7 @@ func Uint64ToUint(input uint64) (uint, error) {
 func Float32ToUint(input float32) (uint, error) {
 
 	// NOT IMPLEMENTED YET
-	return float32(input), nil
+	return uint(input), nil
 
 }
 
@@ -95,7 +95,7 @@ func Float32ToUint(input float32) (uint, error) {
 func Float64ToUint(input float64) (uint, error) {
 
 	// NOT IMPLEMENTED YET
-	return float64(input), nil
+	return uint(input), nil
 
 }
 
@@ -104,7 +104,7 @@ func Float64ToUint(input float64) (uint, error) {
 func Complex64ToUint(input complex64) (uint, error) {
 
 	// NOT IMPLEMENTED YET
-	return complex64(input), nil
+	return uint(input), nil
 
 }
 
@@ -113,7 +113,7 @@ func Complex64ToUint(input complex64) (uint, error) {
 func Complex128ToUint(input complex128) (uint, error) {
 
 	// NOT IMPLEMENTED YET
-	return complex128(input), nil
+	return uint(input), nil
 
 }
 
@@ -122,7 +122,7 @@ func Complex128ToUint(input complex128) (uint, error) {
 func StringToUint(input string) (uint, error) {
 
 	// NOT IMPLEMENTED YET
-	return string(input), nil
+	return uint(input), nil
 
 }
 

@@ -5,7 +5,7 @@ package typeconv
 func IntToComplex64(input int) (complex64, error) {
 
 	// NOT IMPLEMENTED YET
-	return int(input), nil
+	return complex64(input), nil
 
 }
 
@@ -14,7 +14,7 @@ func IntToComplex64(input int) (complex64, error) {
 func Int8ToComplex64(input int8) (complex64, error) {
 
 	// NOT IMPLEMENTED YET
-	return int8(input), nil
+	return complex64(input), nil
 
 }
 
@@ -23,7 +23,7 @@ func Int8ToComplex64(input int8) (complex64, error) {
 func Int16ToComplex64(input int16) (complex64, error) {
 
 	// NOT IMPLEMENTED YET
-	return int16(input), nil
+	return complex64(input), nil
 
 }
 
@@ -32,7 +32,7 @@ func Int16ToComplex64(input int16) (complex64, error) {
 func Int32ToComplex64(input int32) (complex64, error) {
 
 	// NOT IMPLEMENTED YET
-	return int32(input), nil
+	return complex64(input), nil
 
 }
 
@@ -41,7 +41,7 @@ func Int32ToComplex64(input int32) (complex64, error) {
 func Int64ToComplex64(input int64) (complex64, error) {
 
 	// NOT IMPLEMENTED YET
-	return int64(input), nil
+	return complex64(input), nil
 
 }
 
@@ -50,7 +50,7 @@ func Int64ToComplex64(input int64) (complex64, error) {
 func UintToComplex64(input uint) (complex64, error) {
 
 	// NOT IMPLEMENTED YET
-	return uint(input), nil
+	return complex64(input), nil
 
 }
 
@@ -59,7 +59,7 @@ func UintToComplex64(input uint) (complex64, error) {
 func Uint8ToComplex64(input uint8) (complex64, error) {
 
 	// NOT IMPLEMENTED YET
-	return uint8(input), nil
+	return complex64(input), nil
 
 }
 
@@ -68,7 +68,7 @@ func Uint8ToComplex64(input uint8) (complex64, error) {
 func Uint16ToComplex64(input uint16) (complex64, error) {
 
 	// NOT IMPLEMENTED YET
-	return uint16(input), nil
+	return complex64(input), nil
 
 }
 
@@ -77,7 +77,7 @@ func Uint16ToComplex64(input uint16) (complex64, error) {
 func Uint32ToComplex64(input uint32) (complex64, error) {
 
 	// NOT IMPLEMENTED YET
-	return uint32(input), nil
+	return complex64(input), nil
 
 }
 
@@ -86,7 +86,7 @@ func Uint32ToComplex64(input uint32) (complex64, error) {
 func Uint64ToComplex64(input uint64) (complex64, error) {
 
 	// NOT IMPLEMENTED YET
-	return uint64(input), nil
+	return complex64(input), nil
 
 }
 
@@ -95,7 +95,7 @@ func Uint64ToComplex64(input uint64) (complex64, error) {
 func Float32ToComplex64(input float32) (complex64, error) {
 
 	// NOT IMPLEMENTED YET
-	return float32(input), nil
+	return complex64(input), nil
 
 }
 
@@ -104,7 +104,7 @@ func Float32ToComplex64(input float32) (complex64, error) {
 func Float64ToComplex64(input float64) (complex64, error) {
 
 	// NOT IMPLEMENTED YET
-	return float64(input), nil
+	return complex64(input), nil
 
 }
 
@@ -113,7 +113,7 @@ func Float64ToComplex64(input float64) (complex64, error) {
 func Complex128ToComplex64(input complex128) (complex64, error) {
 
 	// NOT IMPLEMENTED YET
-	return complex128(input), nil
+	return complex64(input), nil
 
 }
 
@@ -122,7 +122,7 @@ func Complex128ToComplex64(input complex128) (complex64, error) {
 func StringToComplex64(input string) (complex64, error) {
 
 	// NOT IMPLEMENTED YET
-	return string(input), nil
+	return complex64(input), nil
 
 }
 

@@ -5,7 +5,7 @@ package typeconv
 func IntToFloat64(input int) (float64, error) {
 
 	// NOT IMPLEMENTED YET
-	return int(input), nil
+	return float64(input), nil
 
 }
 
@@ -14,7 +14,7 @@ func IntToFloat64(input int) (float64, error) {
 func Int8ToFloat64(input int8) (float64, error) {
 
 	// NOT IMPLEMENTED YET
-	return int8(input), nil
+	return float64(input), nil
 
 }
 
@@ -23,7 +23,7 @@ func Int8ToFloat64(input int8) (float64, error) {
 func Int16ToFloat64(input int16) (float64, error) {
 
 	// NOT IMPLEMENTED YET
-	return int16(input), nil
+	return float64(input), nil
 
 }
 
@@ -32,7 +32,7 @@ func Int16ToFloat64(input int16) (float64, error) {
 func Int32ToFloat64(input int32) (float64, error) {
 
 	// NOT IMPLEMENTED YET
-	return int32(input), nil
+	return float64(input), nil
 
 }
 
@@ -41,7 +41,7 @@ func Int32ToFloat64(input int32) (float64, error) {
 func Int64ToFloat64(input int64) (float64, error) {
 
 	// NOT IMPLEMENTED YET
-	return int64(input), nil
+	return float64(input), nil
 
 }
 
@@ -50,7 +50,7 @@ func Int64ToFloat64(input int64) (float64, error) {
 func UintToFloat64(input uint) (float64, error) {
 
 	// NOT IMPLEMENTED YET
-	return uint(input), nil
+	return float64(input), nil
 
 }
 
@@ -59,7 +59,7 @@ func UintToFloat64(input uint) (float64, error) {
 func Uint8ToFloat64(input uint8) (float64, error) {
 
 	// NOT IMPLEMENTED YET
-	return uint8(input), nil
+	return float64(input), nil
 
 }
 
@@ -68,7 +68,7 @@ func Uint8ToFloat64(input uint8) (float64, error) {
 func Uint16ToFloat64(input uint16) (float64, error) {
 
 	// NOT IMPLEMENTED YET
-	return uint16(input), nil
+	return float64(input), nil
 
 }
 
@@ -77,7 +77,7 @@ func Uint16ToFloat64(input uint16) (float64, error) {
 func Uint32ToFloat64(input uint32) (float64, error) {
 
 	// NOT IMPLEMENTED YET
-	return uint32(input), nil
+	return float64(input), nil
 
 }
 
@@ -86,7 +86,7 @@ func Uint32ToFloat64(input uint32) (float64, error) {
 func Uint64ToFloat64(input uint64) (float64, error) {
 
 	// NOT IMPLEMENTED YET
-	return uint64(input), nil
+	return float64(input), nil
 
 }
 
@@ -95,7 +95,7 @@ func Uint64ToFloat64(input uint64) (float64, error) {
 func Float32ToFloat64(input float32) (float64, error) {
 
 	// NOT IMPLEMENTED YET
-	return float32(input), nil
+	return float64(input), nil
 
 }
 
@@ -104,7 +104,7 @@ func Float32ToFloat64(input float32) (float64, error) {
 func Complex64ToFloat64(input complex64) (float64, error) {
 
 	// NOT IMPLEMENTED YET
-	return complex64(input), nil
+	return float64(input), nil
 
 }
 
@@ -113,7 +113,7 @@ func Complex64ToFloat64(input complex64) (float64, error) {
 func Complex128ToFloat64(input complex128) (float64, error) {
 
 	// NOT IMPLEMENTED YET
-	return complex128(input), nil
+	return float64(input), nil
 
 }
 
@@ -122,7 +122,7 @@ func Complex128ToFloat64(input complex128) (float64, error) {
 func StringToFloat64(input string) (float64, error) {
 
 	// NOT IMPLEMENTED YET
-	return string(input), nil
+	return float64(input), nil
 
 }
 

@@ -1,6 +1,10 @@
 
 package typeconv
 
+import (
+	"strconv"
+)
+
 // IntToInt16 as the name implies takes a int and converts it into a int16
 func IntToInt16(input int) (int16, error) {
 
@@ -103,8 +107,11 @@ func Float64ToInt16(input float64) (int16, error) {
 // StringToInt16 as the name implies takes a string and converts it into a int16
 func StringToInt16(input string) (int16, error) {
 
-	// NOT IMPLEMENTED YET
-	return int16(input), nil
+	result, err := strconv.ParseInt(input, 10, 16)
+	if err != nil {
+		return 0, err
+	}
+	return int16(result), nil
 
 }
 

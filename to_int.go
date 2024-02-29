@@ -1,5 +1,8 @@
-
 package typeconv
+
+import (
+	"strconv"
+)
 
 // Int8ToInt as the name implies takes a int8 and converts it into a int
 func Int8ToInt(input int8) (int, error) {
@@ -103,8 +106,7 @@ func Float64ToInt(input float64) (int, error) {
 // StringToInt as the name implies takes a string and converts it into a int
 func StringToInt(input string) (int, error) {
 
-	// NOT IMPLEMENTED YET
-	return int(input), nil
+	return strconv.Atoi(input)
 
 }
 

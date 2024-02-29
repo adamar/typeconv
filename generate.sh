@@ -2,7 +2,7 @@
 
 
 
-list="Int Int8 Int16 Int32 Int64 Uint Uint8 Uint16 Uint32 Uint64 Float32 Float64 Complex64 Complex128 String"
+list="Int Int8 Int16 Int32 Int64 Uint Uint8 Uint16 Uint32 Uint64 Float32 Float64 String"
 for output in $list; do 
     output_lower=$(echo $output | awk '{print tolower($0)}')
     filename="to_${output_lower}.go"

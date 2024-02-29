@@ -38,7 +38,7 @@ cat << EOF >> "${filename}"
 func ${input}To${output}(input $input_lower) (${output_lower}, error) {
 
 	// NOT IMPLEMENTED YET
-	return ${input_lower}(input), nil
+	return ${output_lower}(input), nil
 
 }
 

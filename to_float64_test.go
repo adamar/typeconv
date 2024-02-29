@@ -205,8 +205,8 @@ func TestFloat32ToFloat64(t *testing.T) {
 
 func TestStringToFloat64(t *testing.T) {
 
-    input := "1"
-    expected := float64(1)
+    input := "1.34482"
+    expected := float64(1.34482)
 
     result, err := StringToFloat64(input)
 
